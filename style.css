@@ -17,7 +17,9 @@ body {
 .circle-button {
     position: relative;
     padding: 10px 20px;
-    font-size: 16px;
+    width: 10px;
+    height: 10px;
+    font-size: 15px;
     background-color:rgb(36, 58, 118);;
     color: white;
     border: none;
@@ -26,11 +28,11 @@ body {
     outline: none;
 }
 .circle-button .circle {
-    position: absolute;
-    top: -0px;
+   position: absolute;
+    top: 0px;
     left: 10%;
-    width: 15px;
-    height: 15px;
+    width: 17px;
+    height: 18px;
     background-color: #f51d16;
     border-radius: 100%;
 }
@@ -46,6 +48,7 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    padding: 9px;
 
 }
 
@@ -86,6 +89,7 @@ h1{
 .screen{
     width:100%;
     border: 30px;
+    padding: 9px;
 }
 
 
@@ -122,7 +126,7 @@ button {
     border: 1px solid #ddd;
     background-color:rgb(234,227,219);
     font-size : 1.5em;
-    padding: 20px;
+    padding: 15px;
     margin : 0;
     color: rgb(70,75,87);
     border-radius: 4px;
